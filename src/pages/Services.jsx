@@ -14,8 +14,16 @@ const Services = () => {
           <p className='pt-3 text-gray-500'>Bring your ideas to life through dynamic visuals and engaging animations</p>
           <h1><img className='h-40 w-full rounded-md pt-3' src="https://tse3.mm.bing.net/th/id/OIP.FLaFMPA1awTe8tXCz48oQQHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"/></h1>
         </div>
-        <div className='box bg-gray-200 m-4 rounded-lg shadow-lg h-[350px] w-[300px]'></div>
-        <div className='box bg-gray-200 m-4 rounded-lg shadow-lg h-[350px] w-[300px]'></div>
+        <div className='box px-5 pt-5 m-4 rounded-lg shadow-lg h-[350px] w-[300px] bg-violet-700'>
+          <h4 className='text-2xl font-semibold pb-2 border-b border-violet-400 text-white'>2D / 3D <br/>Animation</h4>
+          <p className='pt-3 text-white'>Turn imagination into reality with our stunning 2D / 3D animations</p>
+          <h1><img className='h-40 w-full rounded-md pt-3' src="https://tse3.mm.bing.net/th/id/OIP.QODCi_qwgEHBfCriOm_PTAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"/></h1>
+        </div>
+        <div className='box px-5 pt-5 bg-gray-200 m-4 rounded-lg shadow-lg h-[350px] w-[300px]'>
+          <h4 className='text-2xl font-semibold pb-2 border-b border-violet-400'>Visual <br/>Identity</h4>
+          <p className='pt-3 text-gray-500'>Shape a unique brand persona through our comprehensive visual identity solutions</p>
+          <h1><img className='h-40 w-full rounded-md pt-3' src="https://tse3.mm.bing.net/th/id/OIP.FLaFMPA1awTe8tXCz48oQQHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"/></h1>
+        </div>
       </div>
     </div>
   )
