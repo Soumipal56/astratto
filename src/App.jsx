@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Services from './pages/Services'
 import Work from './pages/Work'
 import About from './pages/About'
+import Careers from './pages/Careers'
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/work" element={<Work />} />
         <Route path="/about" element={<About />} />
+        <Route path="/careers" element={<Careers />} />
       </Routes>
+      {/* <Footer/> */}
     </div>
   )
 }

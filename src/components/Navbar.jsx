@@ -13,7 +13,7 @@ const Navbar = () => {
           <h1>ASTRATTO</h1>
         </div>
         <div className='flex gap-8 mr-6'>
-          <h1>Careers</h1>
+          <Link to ='/careers'>Careers</Link>
           <button className='p-0.5 border-2 border-purple-400 rounded-2xl mix-blend-normal'>CONTACT US <i class="ri-arrow-right-up-long-fill"></i></button>
         </div> 
     </div>
