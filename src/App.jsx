@@ -19,6 +19,7 @@ const App = () => {
         <Route path="/careers" element={<Careers />} />
       </Routes>
       {/* <Footer/> */}
+      
     </div>
   )
 }
