@@ -4,8 +4,7 @@ const Work = () => {
   return (
     <div>
       <h2>Recent Projects</h2>
-      h3
-      
+      <div className='box'></div>
     </div>
   )
 }
